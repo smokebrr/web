@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gidole&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gidole&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @font-face {
-    font-family: cocogoose;
-    src: url(icones_do_brasil/ICONB__.TTF);
-}
-@font-face {
     font-family: geoform;
     src: url(geoform/Geoform-ExtraBold.otf);
 } 
@@ -123,3 +119,19 @@ a {
   color: black;
 
 }
+table{
+    margin: auto ;
+    border: solid black 2.5px;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:gidole ;
+}
+th,td,tr{
+    border: solid black 2px;
+}
+thead,tfoot{
+    background-color: lightgray;
+}
+
